@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Фильтры, которые ищет пользователь</h1>
+    <ul>
+        <li style="color: tomato">Комментарии к коду находятся в Index.js</li>
+    </ul>
+    <ol>
+        <li>В результате нажатия на кнопку requiredRange1 = [null, 200] мы получаем 4 варианта соответствующих диапазону</li>
+        <li>В результате нажатия на кнопку requiredRange2 = [100, 350] мы получаем 1 вариант соответствующий диапазону</li>
+        <li>В результате нажатия на кнопку requiredRange3 = [200, null] мы снова получим 4 варианта</li>
+    </ol>
+    <h2 id="result">Нажмите на кнопку</h2>
+    <button onclick="getResultFunc(requiredRange1)">requiredRange1 = [null, 200]</button>
+    <button onclick="getResultFunc(requiredRange2)">requiredRange2 = [100, 350]</button>
+    <button onclick="getResultFunc(requiredRange3)">requiredRange3 = [200, null]</button>
+    <script src="index.js"></script>
+</body>
+</html>
